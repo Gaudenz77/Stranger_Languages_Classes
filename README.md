@@ -25,7 +25,7 @@
 * Internet for research
 * co-trainees for hearing my most stupid quastions
 * Github (for file repo/sharing/workflow)
-* [Figma](https://www.figma.com/file/V7LpXaW2QCgDe0UbKRS8T7/Countdowntimer-Alpha?node-id=0%3A1&t=hWQhDdXKQyVKFh9s-3)
+* [Miro](https://miro.com/app/board/uXjVP5Gbswc=/?share_link_id=491420144069)
 ----
 # Thanks to:
 * 
