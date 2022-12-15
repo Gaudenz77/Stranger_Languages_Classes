@@ -1,5 +1,4 @@
-[![Gaudenz77 - Stranger Tongues](https://img.shields.io/badge/Gaudenz77-Countdown_Timer-2ea44f?style=for-the-badge)](https://github.com/Gaudenz77/countdownalpha01) 
-# anpassen
+[![Gaudenz77 - Stranger Tongues](https://img.shields.io/badge/Gaudenz77-Stranger_Tongues-2ea44f)](https://github.com/Gaudenz77/Stranger_Languages_Classes)
 ---
 # Stranger Tongues:<br>Create a Register/sign-in form for language classes!
 ### Use Javascript Validation, Bootstrap Css, Html for Design and Github for source-controll
