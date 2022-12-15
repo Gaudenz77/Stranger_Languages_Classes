@@ -1,4 +1,38 @@
-.header-sticky {
-    position: fixed;
-    top:0;
+
+
+#hero {
+
 }
+#switch_01 {
+    width: 50% ;
+}
+
+.test_01 {
+    align-content: center;
+}
+
+.inputfield {
+    width: 100vh;
+}
+
+#darkmodeswitch {
+    float: right;
+}
+
+fieldset {
+    width: 90vh center;
+    background-color: black;
+    border: none;
+  }
+
+.inputFieldTest {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+ 
