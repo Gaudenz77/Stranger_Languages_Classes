@@ -1,4 +1,7 @@
+body {
 
+  /* background-color: black; */
+}
 
 #hero {
 
@@ -20,7 +23,7 @@
 }
 
 fieldset {
-    width: 90vh center;
+    width: 80vh center;
     background-color: black;
     border: none;
   }
@@ -36,6 +39,17 @@ fieldset {
   }
 
 
+/* klingon 1  // Field below w. form */
+#klingon_01 {
+  position:absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    width: 50%;
+}
+
+.formfield-1 {
+  margin-top: 5vh;
+}
 
 
 /*   .form-control {
