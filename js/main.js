@@ -1,30 +1,18 @@
-document.addEventListener("DOMContentLoaded", function(){
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) {
-          document.getElementById('navbar_top').classList.add('fixed-top');
-          // add padding top to show content behind navbar
-          navbar_height = document.querySelector('.navbar').offsetHeight;
-          document.body.style.paddingTop = navbar_height + 'px';
-        } else {
-          document.getElementById('navbar_top').classList.remove('fixed-top');
-           // remove padding top from body
-          document.body.style.paddingTop = '0';
-        } 
-    });
-  }); 
+// Phone Number---------------
+/* function start() {
 
-  window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-
-
-
+  var userNumber = prompt("Enter Your Cell Number");
+  
+  var result = userNumber.match(/^(1|)?(\d{3})(\d{3})(\d{4})$/);
+  
+  var cCode = result[1] ? "+41" : "";
+  
+  var formattedNumber =
+  
+  cCode + " (" + result[2] + ") " + result[3] + "-" + result[4];
+  
+  document.getElementById("number").innerHTML =
+  
+  "The international number is: " + formattedNumber;
+  
+  } */

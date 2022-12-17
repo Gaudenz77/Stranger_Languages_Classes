@@ -44,7 +44,9 @@ fieldset {
   position:absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    width: 50%;
+    width: 50vh;
+    border-width: 10px;
+    border-color: white;
 }
 
 .formfield-1 {
@@ -57,5 +59,9 @@ fieldset {
     background-color:black;
 
   } */
+
+
+
+
 
   
