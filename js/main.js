@@ -1,12 +1,26 @@
+function valfName(){
+  let fName = document.getElementById('fName');
+  let value = inputElement.value;
+
+  if (!valfName('fName')) return false;
+
+alert('hey');
 
 
-function validateForm() {
+}
+
+
+
+
+
+
+/* function validateForm() {
   let x = document.forms["myForm"]["fname"].value;
   if (x == "") {
     alert("Name must be filled out");
     return false;
   }
-}
+} */
 
 
 /* function valfName() {
