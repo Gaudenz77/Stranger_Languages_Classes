@@ -83,7 +83,7 @@
               that gives you first-hand knowledge in Kingon parlee, debating, storytelling<br>or simple greeting for not acting poorly educated meeting your first group of klingn intermissionaries.
             </p>
           </div>
-          
+<!-- FORM---FORM---FORM---FORM---FORM---FORM---FORM---FORM---FORM---FORM---FORM---FORM---FORM---FORM---FORM----->          
         <div class="row justify-content-center mx-1">
         
           <div class="col-md-8 col-lg-6">
@@ -121,7 +121,7 @@
                     <span class="input-group-text">
                       <i class="fa-solid fa-circle-user"></i>
                     </span>
-                    <input type="text" class="form-control text-white bg-dark" id="fName" placeholder="e.g Gaudenz" required>
+                    <input type="text" class="form-control text-white bg-dark" id="fName" name="fName" value="" placeholder="e.g Gaudenz" required>
                   </div>
                   
                   <label for="lName" class="form-label">Last Name</label>
@@ -129,7 +129,15 @@
                     <span class="input-group-text">
                       <i class="fa-solid fa-circle-user"></i>
                     </span>
-                    <input type="text" class="form-control text-white bg-dark" id="lName" placeholder="e.g Raiber" required>
+                    <input type="text" class="form-control text-white bg-dark" id="lName" name="lName" value="" placeholder="e.g Raiber" required>
+                  </div>
+
+                  <label for="valAge" class="form-label">You Age</label>
+                  <div class="mb-4 input-group">
+                    <span class="input-group-text">
+                      <i class="fa-solid fa-circle-user"></i>
+                    </span>
+                    <input type="number" class="form-control text-white bg-dark" id="valAge" name="valAge" value="" min="18" max="99" placeholder="18 to 99" required>
                   </div>
         
                 <label for="telNumber" class="form-label">Enter your phone number:</label>
@@ -142,15 +150,12 @@
         
 
 
-
-
-
-                <label for="level" class="form-label">Class Level</label>
+                <label for="classLevel" class="form-label">Class Level</label>
                 <div class="mb-4 input-group">
                   <span class="input-group-text">
                     <i class="fa-solid fa-graduation-cap"></i>
                   </span>
-                      <select class="form-select text-white bg-dark" name="level" id="level">
+                      <select class="form-select text-white bg-dark" name="classLevel" id="classLevel">
                       <option value="point_1" selected>Beginner A0</option>
                       <option value="point_2">Advanced B1</option>
                       <option value="point_3">Master Degree C1</option>
@@ -161,14 +166,24 @@
 
                 <div class="form-floating mb-4 mt-5">
                   <textarea name="comments" id="query" class="form-control text-white bg-dark" style="height: 140px"></textarea>
-                  <label for="query" input type="text" style="color:white; margin-top:0.1%">additional commentary...</label>
-                </div>
+                  <label for="query" input type="text" style="color:white; margin-top:0.1%"><i class="fa-solid fa-message"></i> additional commentary...</label>
+                  </div>
         
                 <div class="mb-4 text-center">
                   <button submit="submit" class="btn btn-secondary">submit</button>
                 </div>
             </form>
           
+
+            <div class="col">
+              <p id="message-1">Check-mail</p>
+              <p id="message-2">Check-gender</p>
+              <p id="message-3">Check-fName</p>
+              <p id="message-4">Check-lName</p>
+              <p id="message-5">Check-valAge</p>
+              <p id="message-6">Check-telNumber</p>
+              <p id="message-6">Check-classLevel</p>
+            </div>
           
           </div>
         

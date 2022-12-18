@@ -1,3 +1,63 @@
+let fName = document.getElementById('fName');
+let lName = document.getElementById('lName');
+
+
+function setMessage1(value) {
+  document.getElementById("message-1").innerText = value;
+} 
+
+function setMessage1(value) {
+  document.getElementById("message-1").innerText = value;
+} 
+
+function setMessage1(value) {
+  document.getElementById("message-1").innerText = value;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Phone Number---------------
 /* function start() {
 
