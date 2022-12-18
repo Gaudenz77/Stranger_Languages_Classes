@@ -88,20 +88,20 @@
         
           <div class="col-md-8 col-lg-6">
         
-            <form action="">
+            <form action="./results.html"  method="get">
 
-              <label for="email" class="form-label">e-mail adress:</label>
+              <label for="valEmail" class="form-label">e-mail adress:</label>
                 <div class="mb-4 input-group">
                   <span class="input-group-text">
                     <i class="bi bi-envelope-at-fill"></i>
                   </span>
-                  <input type="email" class="form-control text-white bg-dark" id="email" placeholder="e.g m@expl.com" required>
-                  <div class="input-group-text"  style="font-size: 80%">
-                    <input class="form-check-input mt-0 mx-1" type="checkbox" value="" aria-label="Checkbox for following text input">sub to newsletter</div>
+                  <input type="email" class="form-control text-white bg-dark" name="valEmail" id="valEmail" placeholder="e.g me@expl.com" required>
+                  <div class="input-group-text"  style="font-size: 80%"><label for="newsletter">Sub to Newsletter?</label>
+                    <input class="form-check-input mt-0 mx-1" name="newsletter" id="newsletter" type="checkbox" value="yes" aria-label="Checkbox for following text input"></div>
                   </div>
 
 
-              <label for="gender" class="form-label">Gender</label>
+              <!-- <label for="gender" class="form-label">Gender</label>
               <div class="mb-4 input-group">
                 <span class="input-group-text">
                   <i class="fa-solid fa-mars-and-venus-burst"></i>
@@ -112,7 +112,7 @@
                     <option value="point_3">Female</option>
                     <option value="point_4">Binary</option>
                     </select>
-              </div>
+              </div> -->
 
                 
         
@@ -124,7 +124,7 @@
                     <input type="text" class="form-control text-white bg-dark" id="fName" name="fName" value="" placeholder="e.g Gaudenz" required>
                   </div>
                   
-                  <label for="lName" class="form-label">Last Name</label>
+                <label for="lName" class="form-label">Last Name</label>
                   <div class="mb-4 input-group">
                     <span class="input-group-text">
                       <i class="fa-solid fa-circle-user"></i>
@@ -137,10 +137,10 @@
                     <span class="input-group-text">
                       <i class="fa-solid fa-circle-user"></i>
                     </span>
-                    <input type="number" class="form-control text-white bg-dark" id="valAge" name="valAge" value="" min="18" max="99" placeholder="18 to 99" required>
+                    <input type="number" class="form-control text-white bg-dark" id="valAge" name="valAge" value="" min="18" max="99"  placeholder="18 to 99" required>
                   </div>
         
-                <label for="telNumber" class="form-label">Enter your phone number:</label>
+                <!-- <label for="telNumber" class="form-label">Enter your phone number:</label>
                 <div class="mb-4 input-group">
                   <span class="input-group-text">
                     <i class="fa-solid fa-phone-volume"></i>
@@ -162,15 +162,19 @@
                       <option value="point_4">Master Degree C2</option>
                       </select>
                 </div>
-        <!--         start comment box     -->
+       
 
                 <div class="form-floating mb-4 mt-5">
                   <textarea name="comments" id="query" class="form-control text-white bg-dark" style="height: 140px"></textarea>
                   <label for="query" input type="text" style="color:white; margin-top:0.1%"><i class="fa-solid fa-message"></i> additional commentary...</label>
+                  </div> -->
+                  <div class="mb-4 text-center">
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                    
                   </div>
-        
                 <div class="mb-4 text-center">
-                  <button submit="submit" class="btn btn-secondary">submit</button>
+                 
+                  <button type="submit" class="btn btn-secondary">submit</button>
                 </div>
             </form>
           

@@ -1,18 +1,54 @@
-let fName = document.getElementById('fName');
-let lName = document.getElementById('lName');
+
+
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+
+/* function valfName() {
+  let inputElement = document.getElementById("fName");
+  let value = inputElement.value;
+
+  if (!value) { // bsp. '', null, undefined
+      // do something 
+      setMessage1('Bitte etwas eingeben');
+      return false;
+
+  }
+  else {
+      setMessage1(value);
+      return true;
+
+  }
+      
+}
 
 
 function setMessage1(value) {
   document.getElementById("message-1").innerText = value;
-} 
+}   */
+/* function validateForm() {
+  let x = document.forms["myForm"]["fName"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+} */
 
-function setMessage1(value) {
-  document.getElementById("message-1").innerText = value;
-} 
 
-function setMessage1(value) {
-  document.getElementById("message-1").innerText = value;
-} 
+
+
+/* function vallName(){
+let x = document.forms["myForm"]["lName"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+} */
 
 
 
