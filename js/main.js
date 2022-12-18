@@ -1,4 +1,4 @@
-function valfName(){
+/* function valfName(){
   let fName = document.getElementById('fName');
   let value = inputElement.value;
 
@@ -7,8 +7,22 @@ function valfName(){
 alert('hey');
 
 
-}
+} */
 
+/* let test = document.getElementById('fName').value;
+let test1 = test.value; 
+console.log('test'); */
+let fName = document.getElementById("fName");
+let inputElement = document.getElementById("fName");
+
+console.log();
+
+function myFunction() {
+  let p1 =5;
+  let p2 =3;
+  return p1 * p2;
+}
+document.getElementById("demo").innerHTML = myFunction();
 
 
 
