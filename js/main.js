@@ -1,19 +1,19 @@
-function validateForm() 
+function validateAll() {
+    if (!validatefName()) return false; 
+    if (!validatelName()) return false; 
+    if (!validateAge()) return false; 
+    alert("All Good");
+    return true;
+  }
 
 
-function setMessage3(value) {
-  document.getElementById("message-3").innerText = value;
-} 
-
-
-let fName = document.getElementById('fName').value;
 
 function validatefName() {
   let inputElement = document.getElementById('fName');
   let value = inputElement.value;
 
   
-  if (!value) {'', null, undefined
+  if (!value) { // '', null, undefined
     setMessage3("first name must be filled out");
     return false;
   }
@@ -24,20 +24,14 @@ function validatefName() {
   }
 }
 
-function setMessage4(value) {
-  document.getElementById("message-4").innerText = value;
-} 
-
-
-let lName = document.getElementById('lName').value;
 
 function validatelName() {
-  let inputElement = document.getElementById("lname");
+  let inputElement = document.getElementById("lName");
   let value = inputElement.value;
 
-  if (!value) { // bsp. '', null, undefined
+  if (!value) { //'', null, undefined
       // do something 
-      setMessage4("first name must be filled out");
+      setMessage4("last name must be filled out");
       return false;
 
   }
@@ -49,7 +43,32 @@ function validatelName() {
       
 }
 
+function validateAge() {
+  let inputElement = document.getElementById("valName");
+  if (!value) {
 
+  } 
+}
+
+
+
+
+function setMessage3(value) {
+  document.getElementById("message-3").innerText = value;
+} 
+
+function setMessage4(value) {
+  document.getElementById("message-4").innerText = value;
+} 
+
+function setMessage5(value) {
+  document.getElementById("message-5").innerText = value;
+} 
+
+
+
+/* let fName = document.getElementById('fName').value;
+let lName = document.getElementById('lName').value; */
 
 /* function fName() {
   let inputElement = document.getElementById("fname");
