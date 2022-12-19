@@ -7,6 +7,9 @@
 
 ----
 ## Project Task / Assignment
+---
+"A friend wants to sell her language courses online and has asked you to create a small website that allows to test how her booking process would look and feel on mobile devices."
+* build a website with a homepage and a form to register/sign-up for language classes. Give e wide variety of inputfields with their suiting validation conditions.
 
 ----
 ## Usage

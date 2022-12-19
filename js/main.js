@@ -1,3 +1,107 @@
+function validateForm() 
+
+
+function setMessage3(value) {
+  document.getElementById("message-3").innerText = value;
+} 
+
+
+let fName = document.getElementById('fName').value;
+
+function validatefName() {
+  let inputElement = document.getElementById('fName');
+  let value = inputElement.value;
+
+  
+  if (!value) {'', null, undefined
+    setMessage3("first name must be filled out");
+    return false;
+  }
+  else {
+    setMessage3(value);
+    return true;
+    
+  }
+}
+
+function setMessage4(value) {
+  document.getElementById("message-4").innerText = value;
+} 
+
+
+let lName = document.getElementById('lName').value;
+
+function validatelName() {
+  let inputElement = document.getElementById("lname");
+  let value = inputElement.value;
+
+  if (!value) { // bsp. '', null, undefined
+      // do something 
+      setMessage4("first name must be filled out");
+      return false;
+
+  }
+  else {
+      setMessage4(value);
+      return true;
+
+  }
+      
+}
+
+
+
+/* function fName() {
+  let inputElement = document.getElementById("fname");
+  let value = inputElement.value;
+
+  if (!value) { // bsp. '', null, undefined
+      // do something 
+      setMessage1('Bitte Vornamen eingeben');
+      // alert("oopps");
+      return false;
+
+  }
+  // ab hier value gleich nicht leerer string
+  else if (value.indexOf('@') < 0){
+      //value enthält  no @
+      setMessage1('Bitte ein "@" verwenden!');
+      return false;
+
+  }
+  else {
+      setMessage1(value);
+      return true;
+      
+  }
+      
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* let formValidation = document.getElementById('formValidation');
+
+formValidation.addEventListener('submit', function(event) {
+    event.preventDefault()
+
+    let fName = document.getElementById('fName').value
+    console.log(fName);
+    let valEmail = document.getElementById('valEmail').value
+    console.log(valEmail);
+}) */
+
+
+
+
+
 /* function valfName(){
   let fName = document.getElementById('fName');
   let value = inputElement.value;
@@ -12,17 +116,18 @@ alert('hey');
 /* let test = document.getElementById('fName').value;
 let test1 = test.value; 
 console.log('test'); */
-let fName = document.getElementById("fName");
-let inputElement = document.getElementById("fName");
+/* let fName = document.getElementById("fName").value;
 
-console.log();
+let inputElement = document.getElementById("fName");
+console.log(fName);
+
 
 function myFunction() {
   let p1 =5;
   let p2 =3;
   return p1 * p2;
 }
-document.getElementById("demo").innerHTML = myFunction();
+document.getElementById("demo").innerHTML = myFunction(); */
 
 
 

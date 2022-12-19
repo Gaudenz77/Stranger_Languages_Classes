@@ -13,7 +13,38 @@
       </head>
       <body>
 <main>
-  <section id="hero">
+
+  <section>
+    <header id="headerWrapper" class="p-3 bg-dark text-bg-light">
+      <div  class="container mt-0">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+  
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+          </form>
+  
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">Login</button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+
+  <!-- <section id="hero">
     <nav class="navbar bg-warning my-4" class="nav-sticky">
       <div class="container">
         <div class="row">
@@ -39,7 +70,7 @@
           </div>
         </div>
     </nav>
-  </section>
+  </section> -->
 
  <!-- <div class="container">
       <div class="row">
@@ -63,8 +94,8 @@
 
 
 <section>
-<div class="container formfield-1">
-  <div class="row">
+<div class="container">
+  <div class="row my-5">
         
         </div>
       <div class="col bg-info">
@@ -88,20 +119,24 @@
         
           <div class="col-md-8 col-lg-6">
         
-            <form action="./results.html"  method="get">
+            <form id="formValidation" onsubmit="return validateAll();" action="./results.html"  method="get">
 
-              <label for="valEmail" class="form-label">e-mail adress:</label>
+             
+
+
+
+              <!-- <label for="valEmail" class="form-label">e-mail adress:</label>
                 <div class="mb-4 input-group">
                   <span class="input-group-text">
                     <i class="bi bi-envelope-at-fill"></i>
                   </span>
-                  <input type="email" class="form-control text-white bg-dark" name="valEmail" id="valEmail" placeholder="e.g me@expl.com" required>
+                  <input type="email" class="form-control text-white bg-dark" name="valEmail" id="valEmail" placeholder="e.g me@expl.com" >
                   <div class="input-group-text"  style="font-size: 80%"><label for="newsletter">Sub to Newsletter?</label>
                     <input class="form-check-input mt-0 mx-1" name="newsletter" id="newsletter" type="checkbox" value="yes" aria-label="Checkbox for following text input"></div>
-                  </div>
+                  </div> -->
 
 
-              <label for="valGender" class="form-label">Gender</label>
+              <!-- <label for="valGender" class="form-label">Gender</label>
               <div class="mb-4 input-group">
                 <span class="input-group-text">
                   <i class="fa-solid fa-mars-and-venus-burst"></i>
@@ -112,27 +147,27 @@
                     <option value="female">Female</option>
                     <option value="binary">Binary</option>
                     </select>
-              </div>
+              </div> -->
 
-              <p id="demo"></p>
+              
         
                   <label for="fName" class="form-label">First Name</label>
                   <div class="mb-4 input-group">
                     <span class="input-group-text">
                       <i class="fa-solid fa-circle-user"></i>
                     </span>
-                    <input type="text" class="form-control text-white bg-dark" id="fName" name="fName" value="" placeholder="e.g Gaudenz" required>
+                    <input type="text" class="form-control text-white bg-dark" id="fName" name="fName" value="" placeholder="e.g Gaudenz" >
                   </div>
                   
-                <label for="lName" class="form-label">Last Name</label>
+                 <label for="lName" class="form-label">Last Name</label>
                   <div class="mb-4 input-group">
                     <span class="input-group-text">
                       <i class="fa-solid fa-circle-user"></i>
                     </span>
-                    <input type="text" class="form-control text-white bg-dark" id="lName" name="lName" value="" placeholder="e.g Raiber" required>
+                    <input type="text" class="form-control text-white bg-dark" id="lName" name="lName" value="" placeholder="e.g Raiber" >
                   </div>
 
-                  <label for="valAge" class="form-label">You Age</label>
+                  <!-- <label for="valAge" class="form-label">You Age</label>
                   <div class="mb-4 input-group">
                     <span class="input-group-text">
                       <i class="fa-solid fa-circle-user"></i>
@@ -146,11 +181,11 @@
                     <i class="fa-solid fa-phone-volume"></i>
                     </span>
                   <input type="tel" class="form-control text-white bg-dark" id="telNumber" name="telNumber" placeholder="e.g 41-78-123-45-67" >
-                </div>
+                </div> -->
         
                 <!-- <p>pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" format="+41781234567"</p> -->
 
-                <label for="classLevel" class="form-label">Class Level</label>
+                <!-- <label for="classLevel" class="form-label">Class Level</label>
                 <div class="mb-4 input-group">
                   <span class="input-group-text">
                     <i class="fa-solid fa-graduation-cap"></i>
@@ -161,13 +196,13 @@
                       <option value="point_3">Master Degree C1</option>
                       <option value="point_4">Master Degree C2</option>
                       </select>
-                </div>
+                </div>-->
        
 
                 <div class="form-floating mb-4 mt-5">
                   <textarea name="myComment" id="myComment" class="form-control text-white bg-dark" style="height: 140px"></textarea>
                   <label for="query" input type="text" style="color:white; margin-top:0.1%"><i class="fa-solid fa-message"></i> additional commentary...</label>
-                  </div>
+                  </div> 
 
 
 
@@ -178,8 +213,9 @@
                   </div>
                 <div class="mb-4 text-center">
                  
-                  <button type="submit" class="btn btn-secondary">submit</button>
-                </div>
+                  <input type="submit" class="btn btn-secondary" value="Submit">
+<!--                   <button type="submit" class="btn btn-secondary" value="register">submit</button>
+ -->                </div>
             </form>
           
 
@@ -192,6 +228,17 @@
               <p id="message-6">Check-telNumber</p>
               <p id="message-6">Check-classLevel</p>
             </div>
+
+
+            <!-- <div>
+              <p id="demo"></p>
+              <form id="formValidation">
+                <input type="text" id="fName">
+                <input type="email" id="valEmail">
+                <input type="submit" value="register">
+              </form>
+             
+            </div> -->
           
           </div>
         
