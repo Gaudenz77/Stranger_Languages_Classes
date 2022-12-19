@@ -4,6 +4,7 @@ function validateAll() {
     if (!validatefName()) return false; 
     if (!validatelName()) return false; 
     if (!validateAge()) return false; 
+    if (!validatePhone()) return false; 
     if (!validateLevel()) return false; 
     
     alert("All Good");
@@ -106,6 +107,27 @@ else {
   }
 }
 
+function validatePhone() {
+  let inputElement = document.getElementById("telNumber");
+  let value = inputElement.value;
+
+  if (!value) {
+    setMessage6("Please enter your phone");
+    return false;
+  }
+
+  /* else if (value.indexOf('@') < 0) {
+    setMessage6("please enter a valid phone number");
+    return false;
+  } */
+
+  else {
+    setMessage6(value);
+    return true;
+  }
+
+}
+
 function validateLevel() { 
   let inputElement = document.getElementById('classLevel');
   let value = inputElement.value;
@@ -143,6 +165,10 @@ function setMessage4(value) {
 
 function setMessage5(value) {
   document.getElementById("message-5").innerText = value;
+} 
+
+function setMessage6(value) {
+  document.getElementById("message-6").innerText = value;
 } 
 
 function setMessage7(value) {
