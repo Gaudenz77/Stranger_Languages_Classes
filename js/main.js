@@ -1,12 +1,52 @@
 function validateAll() {
+    if (!validateMail()) return false; 
+    if (!validateGender()) return false; 
     if (!validatefName()) return false; 
     if (!validatelName()) return false; 
     if (!validateAge()) return false; 
+    if (!validateLevel()) return false; 
+    
     alert("All Good");
     return true;
   }
 
+function validateMail() {
+  let inputElement = document.getElementById("valMail");
+  let value = inputElement.value;
 
+  if (!value) {
+    setMessage1("Please enter your e-mail")
+    return false;
+  }
+
+  else if (value.indexOf('@') < 0) {
+    setMessage1("please use an '@' in the adress")
+    return false;
+  }
+
+  else {
+    setMessage1(value);
+    return true;
+  }
+
+}
+
+  function validateGender() { 
+    let inputElement = document.getElementById('valGender');
+    let value = inputElement.value;
+
+
+
+
+    if (!value) {
+    setMessage2("please insert your gender");
+    return false;
+  }
+  else {
+    setMessage2(value);
+    return true;
+  }
+}
 
 function validatefName() {
   let inputElement = document.getElementById('fName');
@@ -26,7 +66,7 @@ function validatefName() {
 
 
 function validatelName() {
-  let inputElement = document.getElementById("lName");
+  let inputElement = document.getElementById('lName');
   let value = inputElement.value;
 
   if (!value) { //'', null, undefined
@@ -44,13 +84,53 @@ function validatelName() {
 }
 
 function validateAge() {
-  let inputElement = document.getElementById("valName");
+  let inputElement = document.getElementById('valAge');
+  let value = inputElement.value;
   if (!value) {
+    setMessage5("please insert your age");
+    return false;
 
   } 
+
+  else if( value < 18 || value > 99 ) { 
+    
+    setMessage5('number is either smaller 18 or greater than 99, please use numbers from 0 to 10 only!');
+  
+
+  }
+
+else {
+    setMessage5(value);
+    return true;
+
+  }
+}
+
+function validateLevel() { 
+  let inputElement = document.getElementById('classLevel');
+  let value = inputElement.value;
+
+
+
+
+  if (!value) {
+  setMessage7("please chose a level");
+  return false;
+}
+else {
+  setMessage7(value);
+  return true;
+}
 }
 
 
+function setMessage1(value) {
+  document.getElementById("message-1").innerText = value;
+} 
+
+function setMessage2(value) {
+  document.getElementById("message-2").innerText = value;
+} 
 
 
 function setMessage3(value) {
@@ -63,6 +143,10 @@ function setMessage4(value) {
 
 function setMessage5(value) {
   document.getElementById("message-5").innerText = value;
+} 
+
+function setMessage7(value) {
+  document.getElementById("message-7").innerText = value;
 } 
 
 
