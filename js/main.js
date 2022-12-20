@@ -5,7 +5,10 @@ function validateAll() {
     if (!validatelName()) return false; 
     if (!validateAge()) return false; 
     if (!validatePhone()) return false; 
-    if (!validateLevel()) return false; 
+    if (!validateLevel()) return false;
+    if (!validateComment()) return false;
+    
+    
     
     alert("All Good");
     return true;
@@ -20,13 +23,14 @@ function validateMail() {
     return false;
   }
 
-  else if (value.indexOf('@') < 0) {
+  else if (value.indexOf('@', '#') < 0) {
     setMessage1("please use an '@' in the adress")
     return false;
   }
 
   else {
-    setMessage1(value);
+    setLocalStorage("valMail", value);
+    //setMessage1(value);
     return true;
   }
 
@@ -44,7 +48,8 @@ function validateMail() {
     return false;
   }
   else {
-    setMessage2(value);
+    setLocalStorage("valGender", value);
+    // setMessage2(value);
     return true;
   }
 }
@@ -128,7 +133,8 @@ function validatePhone() {
   } */
 
   else {
-    setMessage6(value);
+    setLocalStorage("telNumber", value);
+    // setMessage6(value);
     return true;
   }
 
@@ -146,10 +152,35 @@ function validateLevel() {
   return false;
 }
 else {
-  setMessage7(value);
+  setLocalStorage("classLevel", value);
+  //setMessage7(value);
   return true;
 }
 }
+
+function validateComment() { 
+  let inputElement = document.getElementById('myComment');
+  let value = inputElement.value;
+
+  /* if (!value) {
+  setMessage8("please tell us about your needs..");
+  return false;
+} */
+  setLocalStorage("myComment", value);
+  //setMessage8(value);
+  return true;
+}
+
+function validateNewsletter() { 
+  let inputElement = document.getElementById('newsletter');
+  let value = inputElement.value;
+
+  setLocalStorage("newsletter", value);
+  //setMessage8(value);
+  return true;
+}
+
+
 
 
 function setMessage1(value) {
@@ -181,145 +212,10 @@ function setMessage7(value) {
   document.getElementById("message-7").innerText = value;
 } 
 
+function setMessage8(value) {
+  document.getElementById("message-8").innerText = value;
+} 
 
-function setErrormessage() {
-  document
-}
-
-/* let fName = document.getElementById('fName').value;
-let lName = document.getElementById('lName').value; */
-
-/* function fName() {
-  let inputElement = document.getElementById("fname");
-  let value = inputElement.value;
-
-  if (!value) { // bsp. '', null, undefined
-      // do something 
-      setMessage1('Bitte Vornamen eingeben');
-      // alert("oopps");
-      return false;
-
-  }
-  // ab hier value gleich nicht leerer string
-  else if (value.indexOf('@') < 0){
-      //value enthält  no @
-      setMessage1('Bitte ein "@" verwenden!');
-      return false;
-
-  }
-  else {
-      setMessage1(value);
-      return true;
-      
-  }
-      
-} */
-
-
-
-
-
-
-
-
-
-
-
-/* let formValidation = document.getElementById('formValidation');
-
-formValidation.addEventListener('submit', function(event) {
-    event.preventDefault()
-
-    let fName = document.getElementById('fName').value
-    console.log(fName);
-    let valEmail = document.getElementById('valEmail').value
-    console.log(valEmail);
-}) */
-
-
-
-
-
-/* function valfName(){
-  let fName = document.getElementById('fName');
-  let value = inputElement.value;
-
-  if (!valfName('fName')) return false;
-
-alert('hey');
-
-
-} */
-
-/* let test = document.getElementById('fName').value;
-let test1 = test.value; 
-console.log('test'); */
-/* let fName = document.getElementById("fName").value;
-
-let inputElement = document.getElementById("fName");
-console.log(fName);
-
-
-function myFunction() {
-  let p1 =5;
-  let p2 =3;
-  return p1 * p2;
-}
-document.getElementById("demo").innerHTML = myFunction(); */
-
-
-
-
-
-/* function validateForm() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-} */
-
-
-/* function valfName() {
-  let inputElement = document.getElementById("fName");
-  let value = inputElement.value;
-
-  if (!value) { // bsp. '', null, undefined
-      // do something 
-      setMessage1('Bitte etwas eingeben');
-      return false;
-
-  }
-  else {
-      setMessage1(value);
-      return true;
-
-  }
-      
-}
-
-
-function setMessage1(value) {
-  document.getElementById("message-1").innerText = value;
-}   */
-/* function validateForm() {
-  let x = document.forms["myForm"]["fName"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-} */
-
-
-
-
-/* function vallName(){
-let x = document.forms["myForm"]["lName"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-} */
 
 
 

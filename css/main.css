@@ -1,5 +1,5 @@
 body {
-margin-top:12%;
+margin-top:20%;
 background-color: black;
 }
 
@@ -65,7 +65,7 @@ background-color: black;
   position:absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    width: 50vh;
+    width: 35vh;
     border-width: 10px;
     border-color: white;
 }
@@ -87,8 +87,13 @@ background-color: black;
 } */
 
 .confirmationLabel {
+  
   color:blue;
   font-weight: bold;
+}
+
+.messageError {
+  color:red;
 }
 
 
