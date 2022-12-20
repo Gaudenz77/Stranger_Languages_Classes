@@ -10,24 +10,19 @@ background-color: black;
   height: 10%; 
   }
 
-/* Mobile */
-/* .containerTop {
-  padding: 14px;
+/* span errormessage */
+/* .right{
+  float:right;
 }
 
-/* Tablet */
-@media (min-width:600px) {
-  .containerTop {
-      padding: 20px;
-  }
-}
-
-/* Desktop */
-@media (min-width:900px) {
-  .containerTop {
-      padding: 24px;
-  }
+.left{
+  float:left;
 } */
+
+.messageError {
+  text-align:right;
+  
+}
 
 #hero {
 
