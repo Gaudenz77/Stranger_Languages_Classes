@@ -1,14 +1,49 @@
 body {
-margin-top:20%;
+margin-top:25%;
 background-color: black;
 }
 
 #headerWrapper {
   position:fixed;
   width:100%;
-  top:0;
-  height: 10%; 
+  top: 0;
+  height: 30%; 
+  z-index: 1;
   }
+
+@font-face {
+    font-family: 'benguiatbold';
+    src: url('/assets/benguiat_bold-webfont.woff2') format('woff2'),
+         url('/assets/benguiat_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+.title-font {
+  font-family: 'benguiatbold';
+
+}
+
+/* Title_font glow */
+
+.glow {
+  font-size: 80px;
+  color: rgb(255, 7, 7);
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60008, 0 0 40px #e60008, 0 0 50px #e60008, 0 0 60px #e60008, 0 0 70px #e60008;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
 
 /* span errormessage */
 /* .right{
