@@ -59,7 +59,9 @@ function validatefName() {
     return false;
   }
   else {
-    setMessage3(value);
+    
+    setLocalStorage("fName", value); //  fname
+    // setMessage3(value);
     return true;
     
   }
@@ -77,7 +79,9 @@ function validatelName() {
 
   }
   else {
-      setMessage4(value);
+
+      setLocalStorage("lName", value); //  lname
+      // setMessage4(value);
       return true;
 
   }
@@ -101,7 +105,9 @@ function validateAge() {
   }
 
 else {
-    setMessage5(value);
+
+    setLocalStorage("valAge", value); // age
+    // setMessage5(value);
     return true;
 
   }
@@ -176,6 +182,9 @@ function setMessage7(value) {
 } 
 
 
+function setErrormessage() {
+  document
+}
 
 /* let fName = document.getElementById('fName').value;
 let lName = document.getElementById('lName').value; */

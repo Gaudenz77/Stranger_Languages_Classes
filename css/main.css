@@ -86,7 +86,10 @@ background-color: black;
     background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
 } */
 
-
+.confirmationLabel {
+  color:blue;
+  font-weight: bold;
+}
 
 
 
