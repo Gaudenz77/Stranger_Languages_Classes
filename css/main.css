@@ -114,7 +114,7 @@ background-image: url("../../media/examples/lizard.png");
     left: 50%;
     width: 35vh;
     border-width: 10px;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0);
 }
 
 .formfield-1 {
