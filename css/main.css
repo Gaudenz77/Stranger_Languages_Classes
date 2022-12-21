@@ -30,6 +30,10 @@ background-image: url("../../media/examples/lizard.png");
   font-size: 80%;
 }
 
+.contenthead {
+  border-radius: 15px;
+}
+
 @font-face {
     font-family: 'benguiatbold';
     src: url('/assets/benguiat_bold-webfont.woff2') format('woff2'),
@@ -39,22 +43,19 @@ background-image: url("../../media/examples/lizard.png");
 
 } 
 
-klingonbg {
-  background-image: url('../../Stranger_Languages_Classes/assets/img/klingon_city_in_fog_by_mylochka_d5ze1lb.png');
-
-}
 
 .content {
   background-color:#E4A11B ;
   opacity: 95%;
   margin-top:435px;
   margin-bottom: 10%;
+  border-radius: 40px;
 }
 
 
 .title-font-header {
   font-family: 'benguiatbold';
-  font-size;
+  
 
 }
 
@@ -96,7 +97,9 @@ klingonbg {
 } */
 
 .messageError {
+  color: rgb(255, 7, 7);
   text-align:right;
+  animation: glow 1s ease-in-out infinite alternate;
   
 }
 
@@ -126,9 +129,6 @@ klingonbg {
   font-weight: bold;
 }
 
-.messageError {
-  color:red;
-}
 
 #footer {
   position:sticky;
@@ -137,7 +137,7 @@ klingonbg {
   width: 100%;
   color: white;
   text-align: center;
- 
+}
 
 /* .alert {
   background-color: #e60008;
