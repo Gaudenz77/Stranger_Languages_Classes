@@ -1,20 +1,21 @@
 [![Gaudenz77 - Stranger Tongues](https://img.shields.io/badge/Gaudenz77-Stranger_Tongues-2ea44f)](https://github.com/Gaudenz77/Stranger_Languages_Classes)
 ---
-# Stranger Tongues:<br>Create a Register/sign-in form for language classes!
-### Use Javascript Validation, Bootstrap Css, Html for Design and Github for source-controll
+# Retrospective
+
+## Final thoughts
 ---
+* A great project to try out various skills.
+* I used Miro instead of figam, not sure if I stay with Miro or Figma. Miro is rathern intuitive, but not web dev specific as Figma is when used correctly
+* => get mor info still on Figam (and Miro)
+* basic planing ok, but suddenly rather caotic...
+* while my horror part, the Javascript form itself wasnt that hard, the finalizing of style was a little bit stormy...
+* => better planing, clearer layout basic from start, work much mor sytematically
 
-
-----
-## Project Task / Assignment
----
-"A friend wants to sell her language courses online and has asked you to create a small website that allows to test how her booking process would look and feel on mobile devices."
-* build a website with a homepage and a form to register/sign-up for language classes. Give e wide variety of inputfields with their suiting validation conditions.
-
-It is a mobile 1st project. the first view in design is therfore with that in mind. Coming on the page you been welcomed and informed and led straight to the form. Homepage and form are on the same page. by buttonclick a second language homepage can be cosen (if one knows he wants one or another just send the suiting one).
+## Knowldgebase
+* under construction, have to clean my collected links throughout this project and put them in my personal library with clear description and labels.
 
 In my project i offer two possinbel language classes, "Klingon" or "Elvespeak" (we are called "Stranger Tounges (tm) not for naught...
 
 
 ----
-## Usage
+## Commentary: following
