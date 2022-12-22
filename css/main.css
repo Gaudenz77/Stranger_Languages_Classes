@@ -10,15 +10,6 @@ font-family: 'Lexend Deca', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300;400;500;700;900&display=swap');
 
-
-/* .bgimg {
-  background-image: url('../../Stranger_Languages_Classes/assets/img/klingon_city_in_fog_by_mylochka_d5ze1lb.png');
-}
- */
-/* 
-background-image: url("../../media/examples/lizard.png");
-*/
-
 #headerWrapper {
   position:fixed;
   width:100%;
@@ -26,7 +17,6 @@ background-image: url("../../media/examples/lizard.png");
   height: 17rem; 
   z-index: 1;
   }
-
 
 /* heder test*/
 #headerWrapper2 {
@@ -40,6 +30,7 @@ background-image: url("../../media/examples/lizard.png");
 #titlelead {
   font-size: 80%;
 }
+
 /* lead test*/
 #titlelead2 {
   font-size: 80%;
@@ -66,7 +57,6 @@ background-image: url("../../media/examples/lizard.png");
 
 } 
 
-
 .content {
   background-color:#E4A11B ;
   opacity: 95%;
@@ -74,6 +64,7 @@ background-image: url("../../media/examples/lizard.png");
   margin-bottom: 10%;
   border-radius: 40px;
 }
+
 /* elvish */
 .content2 {
   background-color:#067906 ;
@@ -83,27 +74,19 @@ background-image: url("../../media/examples/lizard.png");
   border-radius: 40px;
 }
 
-
 .title-font-header {
   font-family: 'benguiatbold';
-
-  
-
 }
 
 .title-font-lead {
   font-family: 'benguiatbold';
   font-size: 25px;
-  
-
 }
 
 .title-font-content {
   font-family: 'benguiatbold';
   font-size: 50px;
   padding: 5px;
-
-
 }
 
 /* Title_font glow */
@@ -125,16 +108,13 @@ background-image: url("../../media/examples/lizard.png");
   }
 }
 
-
 .messageError {
   color: rgb(255, 7, 7);
   text-align:right;
   animation: glow 1s ease-in-out infinite alternate;
-  
 }
 
-
-/* klingon 1  // Field below w. form */
+/* klingon 1 Klingon */
 #klingon_01 {
   position:absolute;
     transform: translate(-50%,-50%);
@@ -145,7 +125,7 @@ background-image: url("../../media/examples/lizard.png");
     border-color:#E4A11B;
 }
 
-/*testpage*/
+/*second page Klingon 2 Elvespeak*/
 #klingon_02 {
   position:absolute;
     transform: translate(-50%,-50%);
@@ -160,14 +140,9 @@ background-image: url("../../media/examples/lizard.png");
   margin-top: 5vh;
 }
 
-
-
 .confirmationLabel {
-  
-  
   font-weight: bold;
 }
-
 
 #footer1 {
   position:sticky;
@@ -191,8 +166,4 @@ background-image: url("../../media/examples/lizard.png");
   text-align: center;
 }
 
-/* .alert {
-  background-color: #e60008;
-} */
-  
 

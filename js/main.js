@@ -9,12 +9,7 @@ function validateAll() {
     if (!validateComment()) return false;
     if (!validateHidden()) return false;
 
-    
-
-    
-    
-    
-    alert("All input fields are filled in correctly. Press enter to submit finally. Thanks");
+    alert("All inputfields are filled in correctly and its good to go!");
     return true;
   }
 
@@ -75,7 +70,6 @@ function validatefName() {
     
   }
 }
-
 
 function validatelName() {
   let inputElement = document.getElementById('lName');
@@ -148,9 +142,6 @@ function validateLevel() {
   let inputElement = document.getElementById('classLevel');
   let value = inputElement.value;
 
-
-
-
   if (!value) {
   setMessage7("please chose a level");
   return false;
@@ -189,9 +180,6 @@ function validateHidden() {
 }
 
 
-
-
-
 function setMessage1(value) {
   document.getElementById("message-1").innerText = value;
 } 
@@ -221,13 +209,6 @@ function setMessage7(value) {
   document.getElementById("message-7").innerText = value;
 } 
 
-
-  document.getElementById("myHidden").innerHTML;
-
-
-/* function setMessage9(value) {
-  document.getElementById("message-9").innerText = value;
-}  */
 
 
 
