@@ -25,8 +25,20 @@ background-image: url("../../media/examples/lizard.png");
   height: 17rem; 
   z-index: 1;
   }
+/* heder test*/
+#headerWrapper2 {
+    position:fixed;
+    width:100%;
+    top:0;
+    height: 17rem; 
+    z-index: 1;
+    }
 
 #titlelead {
+  font-size: 80%;
+}
+/* lead test*/
+#titlelead2 {
   font-size: 80%;
 }
 
@@ -55,6 +67,14 @@ background-image: url("../../media/examples/lizard.png");
 
 .title-font-header {
   font-family: 'benguiatbold';
+
+  
+
+}
+
+.title-font-lead {
+  font-family: 'benguiatbold';
+  font-size: 25px;
   
 
 }
@@ -103,12 +123,19 @@ background-image: url("../../media/examples/lizard.png");
   
 }
 
-#hero {
-
-}
 
 /* klingon 1  // Field below w. form */
 #klingon_01 {
+  position:absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    width: 35vh;
+    border-width: 10px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+/*testpage*/
+#klingon_02 {
   position:absolute;
     transform: translate(-50%,-50%);
     left: 50%;
