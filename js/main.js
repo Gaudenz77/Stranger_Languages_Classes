@@ -7,6 +7,10 @@ function validateAll() {
     if (!validatePhone()) return false; 
     if (!validateLevel()) return false;
     if (!validateComment()) return false;
+    if (!validateHidden()) return false;
+
+    
+
     
     
     
@@ -171,14 +175,19 @@ function validateComment() {
   return true;
 }
 
-function validateNewsletter() { 
-  let inputElement = document.getElementById('newsletter');
+function validateHidden() { 
+  let inputElement = document.getElementById('myHidden');
   let value = inputElement.value;
 
-  setLocalStorage("newsletter", value);
+  /* if (!value) {
+  setMessage8("please tell us about your needs..");
+  return false;
+} */
+  setLocalStorage("myHidden", value);
   //setMessage8(value);
   return true;
 }
+
 
 
 
@@ -216,8 +225,15 @@ function setMessage8(value) {
   document.getElementById("message-8").innerText = value;
 } 
 
+function setMessage8(value) {
+  document.getElementById("message-8").innerText = value;
+} 
 
 
+function myFunction() {
+  var x = document.getElementById("myInput").value;
+  document.getElementById("demo").innerHTML = x;
+}
 
 
 

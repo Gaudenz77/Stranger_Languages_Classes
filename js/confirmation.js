@@ -20,6 +20,7 @@ function writeConfirmation () {
     let phone = getLocalStorage("telNumber");
     let classLevel = getLocalStorage("classLevel");
     let comment = getLocalStorage("myComment");
+    let hidden = getLocalStorage("myHidden")
 
     let confirmation = `<p><span class="confirmationLabel">e-Mail:</span> ${eMail}</p>
                             <span class="confirmationLabel">newsletter y/n:</span> ${checkedNL}</p>
@@ -29,7 +30,8 @@ function writeConfirmation () {
                             <span class="confirmationLabel">age:</span> ${age}</p>
                             <span class="confirmationLabel">phone:</span> ${phone}</p>
                             <span class="confirmationLabel">level:</span> ${classLevel}</p>
-                            <span class="confirmationLabel">commentary:</span> ${comment}</p>`;
+                            <span class="confirmationLabel">commentary:</span> ${comment}</p>
+                            <span class="confirmationLabel">commentary:</span> ${hidden}</p>`;
         // die Beastätigung wird als innerHGTML gesetzt
         document.getElementById("confirmation-message").innerHTML = confirmation;
         console.log(confirmation);

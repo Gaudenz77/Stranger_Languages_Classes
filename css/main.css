@@ -3,7 +3,8 @@ margin-top:18%;
 background: url('../assets/img/klingon_city_in_fog_by_mylochka_d5ze1lb.png');
 width: 100%;
 height: auto;
-background-size: cover;
+background-size:cover;
+background-repeat: no-repeat;
 font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -44,6 +45,14 @@ background-image: url("../../media/examples/lizard.png");
 
 .contenthead {
   border-radius: 15px;
+  background-color:#E4A11B ;
+  
+}
+
+.contenthead2 {
+  border-radius: 15px;
+  background-color: #067906;
+  
 }
 
 @font-face {
@@ -58,6 +67,14 @@ background-image: url("../../media/examples/lizard.png");
 
 .content {
   background-color:#E4A11B ;
+  opacity: 95%;
+  margin-top:435px;
+  margin-bottom: 10%;
+  border-radius: 40px;
+}
+/* elvish */
+.content2 {
+  background-color:#067906 ;
   opacity: 95%;
   margin-top:435px;
   margin-bottom: 10%;
@@ -130,8 +147,9 @@ background-image: url("../../media/examples/lizard.png");
     transform: translate(-50%,-50%);
     left: 50%;
     width: 35vh;
+    border-style:inset;
     border-width: 10px;
-    border-color: rgba(255, 255, 255, 0);
+    border-color:#E4A11B;
 }
 
 /*testpage*/
@@ -140,8 +158,9 @@ background-image: url("../../media/examples/lizard.png");
     transform: translate(-50%,-50%);
     left: 50%;
     width: 35vh;
+    border-style:inset;
     border-width: 10px;
-    border-color: rgba(255, 255, 255, 0);
+    border-color: #067906;
 }
 
 .formfield-1 {
