@@ -126,15 +126,6 @@ background-image: url("../../media/examples/lizard.png");
 }
 
 
-/* span errormessage */
-/* .right{
-  float:right;
-}
-
-.left{
-  float:left;
-} */
-
 .messageError {
   color: rgb(255, 7, 7);
   text-align:right;

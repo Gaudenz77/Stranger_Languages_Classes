@@ -14,7 +14,7 @@ function validateAll() {
     
     
     
-    alert("All Good");
+    alert("All input fields are filled in correctly. Press enter to submit finally. Thanks");
     return true;
   }
 
