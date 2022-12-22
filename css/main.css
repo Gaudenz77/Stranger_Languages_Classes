@@ -26,6 +26,8 @@ background-image: url("../../media/examples/lizard.png");
   height: 17rem; 
   z-index: 1;
   }
+
+
 /* heder test*/
 #headerWrapper2 {
     position:fixed;
@@ -171,16 +173,29 @@ background-image: url("../../media/examples/lizard.png");
 
 .confirmationLabel {
   
-  color:blue;
+  
   font-weight: bold;
 }
 
 
-#footer {
+#footer1 {
   position:sticky;
   left: 0;
   bottom:0;
   width: 100%;
+  background-color:#E4A11B;
+  color: white;
+  text-align: center;
+}
+
+/* footer 2 */
+
+#footer2 {
+  position:sticky;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  background-color: #067906;
   color: white;
   text-align: center;
 }

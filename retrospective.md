@@ -18,28 +18,3 @@ In my project i offer two possinbel language classes, "Klingon" or "Elvespeak" (
 
 ----
 ## Usage
-
-* go to [Github](https://github.com/Gaudenz77/countdownalpha01) or
-* get the website-link directly (if hosted), by qr-code, google-search and so on...
-* on the homepage one is led straightforward to the form
-* fill out the form and press submit. If everything i correct, an alert shows up.
-* IF NOT: in red glowing errormessages next to the error inputfield correct the missing or wrong entry as needed by the form
-* press ok or enter 
-* a confirmation-message shows up with all form input entries. You can go back to one or the other homepage provided by two buttons for one language each ( Klingon/ Elvspeak)
-
-
-## Thank you for your time.
----
-### Any feedback or assisting constructive critique is welcome. Feel free to reach out (mail adress on website).
-----
-----
-## License
-* none, free use
-----
-## Tools used
-* Visual Studio Code (Html, Css, JS)
-* Internet for research
-* co-trainees for hearing my questions
-* Github (for file repo/sharing/workflow)
-* [Miro](https://miro.com/app/board/uXjVP5Gbswc=/?share_link_id=491420144069)
-----

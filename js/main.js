@@ -221,19 +221,15 @@ function setMessage7(value) {
   document.getElementById("message-7").innerText = value;
 } 
 
-function setMessage8(value) {
-  document.getElementById("message-8").innerText = value;
-} 
 
-function setMessage8(value) {
-  document.getElementById("message-8").innerText = value;
-} 
+  document.getElementById("myHidden").innerHTML;
 
 
-function myFunction() {
-  var x = document.getElementById("myInput").value;
-  document.getElementById("demo").innerHTML = x;
-}
+/* function setMessage9(value) {
+  document.getElementById("message-9").innerText = value;
+}  */
+
+
 
 
 

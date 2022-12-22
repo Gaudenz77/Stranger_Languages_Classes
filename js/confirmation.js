@@ -31,9 +31,11 @@ function writeConfirmation () {
                             <span class="confirmationLabel">phone:</span> ${phone}</p>
                             <span class="confirmationLabel">level:</span> ${classLevel}</p>
                             <span class="confirmationLabel">commentary:</span> ${comment}</p>
-                            <span class="confirmationLabel">commentary:</span> ${hidden}</p>`;
+                            <span class="confirmationLabel">your language of choice:</span> ${hidden}</p>`;
         // die Beastätigung wird als innerHGTML gesetzt
         document.getElementById("confirmation-message").innerHTML = confirmation;
         console.log(confirmation);
 
  }
+
+ 
